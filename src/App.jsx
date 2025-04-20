@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Gallery from './Gallery';
-import DestinationSelector from './DestinationSelector';
+import Gallery from './components/Gallery';
+import DestinationSelector from './components/DestinationSelector';
 
 function App() {
   const [tours, setTours] = useState([]);
