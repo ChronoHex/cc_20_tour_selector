@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 function TourCard({ tour, onRemoveTour }) {
     const [showFullInfo, setShowFullInfo] = useState(false);
   
