@@ -7,7 +7,7 @@ function Gallery({ tours, onRemoveTour }) {
         <TourCard key={tour.id} tour={tour} onRemoveTour={onRemoveTour} />
       ))}
     </div>
-  );
+  ); // renders list of TourCard components
 }
 
 export default Gallery;
